@@ -1,4 +1,4 @@
-
+# Add more functions to support bt_bot.py
 
 def if_neutral_planet_available(state):
     return any(state.neutral_planets())

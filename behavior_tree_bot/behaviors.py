@@ -2,6 +2,8 @@ import sys
 sys.path.insert(0, '../')
 from planet_wars import issue_order
 
+# Add more functions to support the bt_bot.py
+
 
 def attack_weakest_enemy_planet(state):
     # (1) If we currently have a fleet in flight, abort plan.

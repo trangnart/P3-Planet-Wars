@@ -23,6 +23,8 @@ from planet_wars import PlanetWars, finish_turn
 # of winning against all the 5 opponent bots
 def setup_behavior_tree():
 
+    # Main Strategy place
+
     # Top-down construction of behavior tree
     root = Selector(name='High Level Ordering of Strategies')
 
