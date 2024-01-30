@@ -1,513 +1,425 @@
-INFO:root:[Planet(ID=5, x=14.086422, y=7.113968, owner=0.0, num_ships=4.0, growth_rate=3.0), Planet(ID=6, x=9.513476, y=16.251314, owner=0.0, num_ships=4.0, growth_rate=3.0), Planet(ID=19, x=10.505006, y=0.159585, owner=0.0, num_ships=7.0, growth_rate=4.0), Planet(ID=20, x=13.094892, y=23.205697, owner=0.0, num_ships=7.0, growth_rate=4.0), Planet(ID=3, x=11.468653, y=22.631901, owner=0.0, num_ships=12.0, growth_rate=3.0), Planet(ID=4, x=12.131245, y=0.733381, owner=0.0, num_ships=12.0, growth_rate=3.0), Planet(ID=9, x=8.388868, y=18.100755, owner=0.0, num_ships=38.0, growth_rate=3.0), Planet(ID=10, x=15.211031, y=5.264527, owner=0.0, num_ships=38.0, growth_rate=3.0), Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=0, x=11.799949, y=11.682641, owner=0.0, num_ships=61.0, growth_rate=5.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:2 5 5.0
+INFO:root:[Planet(ID=11, x=10.669321, y=12.816704, owner=0.0, num_ships=1.0, growth_rate=1.0), Planet(ID=12, x=11.052879, y=10.198893, owner=0.0, num_ships=1.0, growth_rate=1.0), Planet(ID=19, x=7.675697, y=23.015597, owner=0.0, num_ships=6.0, growth_rate=4.0), Planet(ID=20, x=14.046503, y=0.0, owner=0.0, num_ships=6.0, growth_rate=4.0), Planet(ID=7, x=0.0, y=14.826147, owner=0.0, num_ships=25.0, growth_rate=1.0), Planet(ID=8, x=21.7222, y=8.18945, owner=0.0, num_ships=25.0, growth_rate=1.0), Planet(ID=15, x=5.643137, y=19.345455, owner=0.0, num_ships=30.0, growth_rate=3.0), Planet(ID=16, x=16.079063, y=3.670142, owner=0.0, num_ships=30.0, growth_rate=3.0), Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 11 2.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=6, x=9.513476, y=16.251314, owner=0.0, num_ships=4.0, growth_rate=3.0), Planet(ID=19, x=10.505006, y=0.159585, owner=0.0, num_ships=7.0, growth_rate=4.0), Planet(ID=20, x=13.094892, y=23.205697, owner=0.0, num_ships=7.0, growth_rate=4.0), Planet(ID=3, x=11.468653, y=22.631901, owner=0.0, num_ships=12.0, growth_rate=3.0), Planet(ID=4, x=12.131245, y=0.733381, owner=0.0, num_ships=12.0, growth_rate=3.0), Planet(ID=9, x=8.388868, y=18.100755, owner=0.0, num_ships=38.0, growth_rate=3.0), Planet(ID=10, x=15.211031, y=5.264527, owner=0.0, num_ships=38.0, growth_rate=3.0), Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=0, x=11.799949, y=11.682641, owner=0.0, num_ships=61.0, growth_rate=5.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:2 6 5.0
+INFO:root:[Planet(ID=12, x=11.052879, y=10.198893, owner=0.0, num_ships=1.0, growth_rate=1.0), Planet(ID=19, x=7.675697, y=23.015597, owner=0.0, num_ships=6.0, growth_rate=4.0), Planet(ID=20, x=14.046503, y=0.0, owner=0.0, num_ships=6.0, growth_rate=4.0), Planet(ID=7, x=0.0, y=14.826147, owner=0.0, num_ships=25.0, growth_rate=1.0), Planet(ID=8, x=21.7222, y=8.18945, owner=0.0, num_ships=25.0, growth_rate=1.0), Planet(ID=15, x=5.643137, y=19.345455, owner=0.0, num_ships=30.0, growth_rate=3.0), Planet(ID=16, x=16.079063, y=3.670142, owner=0.0, num_ships=30.0, growth_rate=3.0), Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 12 2.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=19, x=10.505006, y=0.159585, owner=0.0, num_ships=7.0, growth_rate=4.0), Planet(ID=20, x=13.094892, y=23.205697, owner=0.0, num_ships=7.0, growth_rate=4.0), Planet(ID=3, x=11.468653, y=22.631901, owner=0.0, num_ships=12.0, growth_rate=3.0), Planet(ID=4, x=12.131245, y=0.733381, owner=0.0, num_ships=12.0, growth_rate=3.0), Planet(ID=9, x=8.388868, y=18.100755, owner=0.0, num_ships=38.0, growth_rate=3.0), Planet(ID=10, x=15.211031, y=5.264527, owner=0.0, num_ships=38.0, growth_rate=3.0), Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=0, x=11.799949, y=11.682641, owner=0.0, num_ships=61.0, growth_rate=5.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:2 19 8.0
+INFO:root:[Planet(ID=19, x=7.675697, y=23.015597, owner=0.0, num_ships=6.0, growth_rate=4.0), Planet(ID=20, x=14.046503, y=0.0, owner=0.0, num_ships=6.0, growth_rate=4.0), Planet(ID=7, x=0.0, y=14.826147, owner=0.0, num_ships=25.0, growth_rate=1.0), Planet(ID=8, x=21.7222, y=8.18945, owner=0.0, num_ships=25.0, growth_rate=1.0), Planet(ID=15, x=5.643137, y=19.345455, owner=0.0, num_ships=30.0, growth_rate=3.0), Planet(ID=16, x=16.079063, y=3.670142, owner=0.0, num_ships=30.0, growth_rate=3.0), Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 19 7.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=20, x=13.094892, y=23.205697, owner=0.0, num_ships=7.0, growth_rate=4.0), Planet(ID=3, x=11.468653, y=22.631901, owner=0.0, num_ships=12.0, growth_rate=3.0), Planet(ID=4, x=12.131245, y=0.733381, owner=0.0, num_ships=12.0, growth_rate=3.0), Planet(ID=9, x=8.388868, y=18.100755, owner=0.0, num_ships=38.0, growth_rate=3.0), Planet(ID=10, x=15.211031, y=5.264527, owner=0.0, num_ships=38.0, growth_rate=3.0), Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=0, x=11.799949, y=11.682641, owner=0.0, num_ships=61.0, growth_rate=5.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:2 20 8.0
+INFO:root:[Planet(ID=20, x=14.046503, y=0.0, owner=0.0, num_ships=6.0, growth_rate=4.0), Planet(ID=7, x=0.0, y=14.826147, owner=0.0, num_ships=25.0, growth_rate=1.0), Planet(ID=8, x=21.7222, y=8.18945, owner=0.0, num_ships=25.0, growth_rate=1.0), Planet(ID=15, x=5.643137, y=19.345455, owner=0.0, num_ships=30.0, growth_rate=3.0), Planet(ID=16, x=16.079063, y=3.670142, owner=0.0, num_ships=30.0, growth_rate=3.0), Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 20 7.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=3, x=11.468653, y=22.631901, owner=0.0, num_ships=12.0, growth_rate=3.0), Planet(ID=4, x=12.131245, y=0.733381, owner=0.0, num_ships=12.0, growth_rate=3.0), Planet(ID=9, x=8.388868, y=18.100755, owner=0.0, num_ships=38.0, growth_rate=3.0), Planet(ID=10, x=15.211031, y=5.264527, owner=0.0, num_ships=38.0, growth_rate=3.0), Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=0, x=11.799949, y=11.682641, owner=0.0, num_ships=61.0, growth_rate=5.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:2 3 13.0
+INFO:root:[Planet(ID=7, x=0.0, y=14.826147, owner=0.0, num_ships=25.0, growth_rate=1.0), Planet(ID=8, x=21.7222, y=8.18945, owner=0.0, num_ships=25.0, growth_rate=1.0), Planet(ID=15, x=5.643137, y=19.345455, owner=0.0, num_ships=30.0, growth_rate=3.0), Planet(ID=16, x=16.079063, y=3.670142, owner=0.0, num_ships=30.0, growth_rate=3.0), Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 7 26.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=4, x=12.131245, y=0.733381, owner=0.0, num_ships=12.0, growth_rate=3.0), Planet(ID=9, x=8.388868, y=18.100755, owner=0.0, num_ships=38.0, growth_rate=3.0), Planet(ID=10, x=15.211031, y=5.264527, owner=0.0, num_ships=38.0, growth_rate=3.0), Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=0, x=11.799949, y=11.682641, owner=0.0, num_ships=61.0, growth_rate=5.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:2 4 13.0
+INFO:root:[Planet(ID=8, x=21.7222, y=8.18945, owner=0.0, num_ships=25.0, growth_rate=1.0), Planet(ID=15, x=5.643137, y=19.345455, owner=0.0, num_ships=30.0, growth_rate=3.0), Planet(ID=16, x=16.079063, y=3.670142, owner=0.0, num_ships=30.0, growth_rate=3.0), Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 8 26.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=9, x=8.388868, y=18.100755, owner=0.0, num_ships=38.0, growth_rate=3.0), Planet(ID=10, x=15.211031, y=5.264527, owner=0.0, num_ships=38.0, growth_rate=3.0), Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=0, x=11.799949, y=11.682641, owner=0.0, num_ships=61.0, growth_rate=5.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:2 9 39.0
+INFO:root:[Planet(ID=15, x=5.643137, y=19.345455, owner=0.0, num_ships=30.0, growth_rate=3.0), Planet(ID=16, x=16.079063, y=3.670142, owner=0.0, num_ships=30.0, growth_rate=3.0), Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 15 31.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=10, x=15.211031, y=5.264527, owner=0.0, num_ships=38.0, growth_rate=3.0), Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=0, x=11.799949, y=11.682641, owner=0.0, num_ships=61.0, growth_rate=5.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:2 10 39.0
+INFO:root:[Planet(ID=16, x=16.079063, y=3.670142, owner=0.0, num_ships=30.0, growth_rate=3.0), Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 16 31.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=0, x=11.799949, y=11.682641, owner=0.0, num_ships=61.0, growth_rate=5.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 12 13.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=21, x=6.414776, y=0.0, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:2 21 47.0
+INFO:root:[Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:15 11 11.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=17, x=7.597313, y=16.368684, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=22, x=17.185123, y=23.365282, owner=0.0, num_ships=46.0, growth_rate=2.0), Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:19 22 47.0
+INFO:root:[Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 17 26.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=13, x=6.591978, y=18.651186, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:5 13 48.0
+INFO:root:[Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:19 15 24.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:2 10 20.0
+INFO:root:[Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=18, x=14.124887, y=6.646912, owner=0.0, num_ships=60.0, growth_rate=4.0), Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 18 61.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=14, x=17.00792, y=4.714096, owner=0.0, num_ships=47.0, growth_rate=1.0), Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:4 14 48.0
+INFO:root:[Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:5 21 24.0
-DEBUG:root:Order:2 9 49.0
+INFO:root:[Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 7 5.0
+DEBUG:root:Order:15 8 22.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:12 11 5.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:13 6 38.0
+INFO:root:[Planet(ID=13, x=1.004558, y=5.461079, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:19 13 67.0
+DEBUG:root:Order:2 12 18.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=7, x=10.666231, y=19.134267, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:19 7 67.0
+INFO:root:[Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:2 0 53.0
+INFO:root:[Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:19 14 10.0
+INFO:root:[Planet(ID=14, x=20.717642, y=17.554517, owner=0.0, num_ships=66.0, growth_rate=2.0), Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:17 14 67.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=8, x=12.933668, y=4.231015, owner=0.0, num_ships=66.0, growth_rate=3.0), Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=5, x=20.040363, y=14.263743, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 5 71.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:19 8 17.0
+INFO:root:[Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:2 14 27.0
+INFO:root:[Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=15, x=16.66455, y=12.760559, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:10 15 67.0
+INFO:root:[Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=16, x=6.935348, y=10.604723, owner=0.0, num_ships=66.0, growth_rate=1.0), Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:4 16 67.0
+INFO:root:[Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=11, x=23.599899, y=9.985025, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=6, x=1.681837, y=8.751854, owner=0.0, num_ships=70.0, growth_rate=2.0), Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:19 6 71.0
+DEBUG:root:Order:11 7 13.0
+DEBUG:root:Order:12 8 13.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:5 11 42.0
+INFO:root:[Planet(ID=9, x=18.935978, y=22.145016, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:15 9 71.0
+DEBUG:root:Order:2 12 26.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:17 14 38.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:19 8 61.0
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:4 15 15.0
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 17 33.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=12, x=0.0, y=13.380257, owner=0.0, num_ships=76.0, growth_rate=4.0), Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:2 12 77.0
-DEBUG:root:Order:7 1 27.0
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 15 17.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:19 11 26.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:8 16 17.0
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:13 5 52.0
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=17, x=4.659163, y=1.253974, owner=0.0, num_ships=84.0, growth_rate=3.0), Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:0 17 85.0
-DEBUG:root:Order:9 22 62.0
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[Planet(ID=18, x=18.940735, y=22.111308, owner=0.0, num_ships=84.0, growth_rate=3.0)]
-DEBUG:root:Order:6 18 85.0
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:13 6 10.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:12 8 13.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
-DEBUG:root:Order:6 16 16.0
-DEBUG:root:Order:4 21 39.0
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=10, x=2.786222, y=0.87058, owner=0.0, num_ships=70.0, growth_rate=4.0), Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 10 71.0
+DEBUG:root:Order:13 6 16.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:17 14 30.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=21, x=4.368988, y=20.026611, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:19 21 74.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
-DEBUG:root:Order:4 17 31.0
+INFO:root:[Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
-DEBUG:root:Order:9 18 48.0
-DEBUG:root:Order:1 3 84.0
+INFO:root:[Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:19 11 13.0
+DEBUG:root:Order:2 12 26.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:15 17 22.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:7 8 25.0
+DEBUG:root:Order:2 13 34.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
-DEBUG:root:Order:8 17 44.0
+INFO:root:[Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:19 15 23.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 17 26.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=3, x=10.68592, y=21.855473, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=22, x=17.353212, y=2.988986, owner=0.0, num_ships=73.0, growth_rate=2.0), Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
-DEBUG:root:Order:19 17 147.0
+INFO:root:[Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:5 14 10.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:15 21 6.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
-DEBUG:root:Order:1 18 59.0
+INFO:root:[Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 15 23.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:12 11 5.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
-DEBUG:root:Order:2 12 184.0
+INFO:root:[Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:17 12 15.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 21 12.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
-DEBUG:root:Order:7 18 86.0
+INFO:root:[Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:15 11 11.0
+DEBUG:root:Order:2 13 24.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=4, x=11.03628, y=1.160123, owner=0.0, num_ships=85.0, growth_rate=4.0), Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
-DEBUG:root:Order:6 16 103.0
+INFO:root:[Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
-DEBUG:root:Order:10 20 174.0
+INFO:root:[Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 7 6.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
+DEBUG:root:Order:2 15 21.0
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
+INFO:root:[Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Order:12 17 44.0
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
-DEBUG:root:Finish turn
-
-INFO:root:[]
+INFO:root:[Planet(ID=0, x=10.8611, y=11.507798, owner=0.0, num_ships=142.0, growth_rate=4.0)]
 DEBUG:root:Finish turn
 

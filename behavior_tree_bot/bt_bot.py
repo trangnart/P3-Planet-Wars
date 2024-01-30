@@ -37,15 +37,29 @@ def setup_behavior_tree():
     spread_sequence.child_nodes = [neutral_planet_check, spread_action]
     '''
 
+    defensive_strat = Sequence(name='Defensive Strategy')
+    my_planet = Check(if_my_planet_available)
+    threat_available = Check(threats)
+    defense_against_threat = Action(defending)
+    defensive_strat.child_nodes = [my_planet, threat_available, defense_against_threat]
+
     early_game = Sequence(name='Early Game Strategy')
     neutral_planet_check = Check(if_neutral_planet_available)
     most_profitable_planet = Action(most_profitable)
     early_game.child_nodes =  [neutral_planet_check, most_profitable_planet]
 
-    attack = Action(attack_weakest_enemy_planet)
+    attack_spreader = Sequence(name='Spread Offensive Strategy')
+    spread_identifier = Check(spread_attack)
+    attack_attacker = Action(attack_multiple)
+    attack_spreader.child_nodes = [spread_identifier, attack_attacker]
+
+    attack = Sequence(name='Offensive Strategy')
+    enemy_planet_check = Check(if_enemy_planet_available)
+    attack_profitable_planet = Action(attack_profitable)
+    attack.child_nodes = [enemy_planet_check, attack_profitable_planet]
 
     #needed a defensive strategy, and offensive strategy
-    root.child_nodes = [early_game, attack.copy()]
+    root.child_nodes = [defensive_strat, attack_spreader, early_game, attack]
 
     logging.info('\n' + root.tree_to_string())
     return root
